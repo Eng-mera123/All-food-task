@@ -1,0 +1,767 @@
+*{
+   font-family: sans-serif;
+}
+body {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ......Start of the header [1st]div.....*/
+.header{
+ background-image: url("assets/Images/head.webp"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*.... Start Navbar...*/
+.header #containe{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 1% 2%;
+  background-color:transparent;
+}
+.header #containe .menu{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0; 
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header #containe .menu ul li a{
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+  text-decoration: none;
+  color: black; 
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.menu ul li a:hover {
+  color: #ff5722; 
+}
+.header #containe .menu ul li button{
+  margin: 10px;
+  padding: 25px 35px;
+}
+.header #containe img {
+  width: 100px;
+  height: 70px;
+}
+/*.... End of Navbar ...*/
+/*.... Start of main content...*/
+.head {
+  text-align: left;
+  color: #000;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 11%;
+} 
+.head h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: orangered; 
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.head h1 {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1.2;
+  max-width: 800px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.head p {
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 600px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.head button {
+  padding: 18px 32px;
+  border: none;
+  background-color: orangered;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  width: fit-content;
+  transition: background-color 0.3s ease;
+}
+.head button:hover {
+  background-color: #cb4820;
+}
+/*...End of main content ...*/
+/*.... End of the header [1st]div ...*/
+
+/*.++++++++++++++++++++++++.*/
+
+/*.... Start of p1 [2nd]div.....*/
+/*... Start of right part...*/
+.p1{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12%;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-bottom: 9%;
+}
+.p1 .righp{
+  padding-top: 5%;
+}
+.p1 .righp h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: orangered; 
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.p1 .righp h1 {
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 1.2;
+  max-width: 600px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  word-spacing: 10px;
+  padding: 2% 0%;
+}
+.p1 .righp p {
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 500px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+/*.... AI .....*/
+.p1 .righp .icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; 
+  justify-content: center; 
+  max-width: 800px; 
+  margin: 0 auto; 
+}
+.p1 .righp .icons .icon-item {
+    display: flex;
+    align-items: center; 
+    width: 45%; 
+}
+.p1 .righp .icons .icon-item img {
+    width: 50px;
+    height: 50px;
+    padding-right: 7%;  
+}
+.p1 .righp .icons .icon-item p {
+    font-family: Arial, sans-serif;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+/*.... End of right part...*/
+/*...Start of left part...*/
+.p1 .leftp img{
+  width: 600px;
+  height: 700px;
+}
+/*.... End of left part...*/
+/*.... End of p1 [2nd]div.....*/
+
+/* ++++++++++++++++++++++++++ */
+
+/* ....... Start of p2 [3rd] div........... */
+ /*.... AI ....*/
+
+.p2 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;    
+}
+.p2 .p2bg{
+    
+    height: 350px;
+    background-image: url("assets/Images/p2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.p2 .p2bg h3 {
+    color: orangered;
+    font-weight: normal;
+    font-size: 18px;
+    margin: 2%;
+    padding-top: 3%;
+}
+
+.p2 .p2bg h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 2%;
+}
+.menu-tabs {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    gap: 15px; 
+}
+.menu-tabs li a {
+    display: block; 
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.menu-tabs li a.active,
+.menu-tabs li a:hover {
+    color: #fff;
+    background-color: orangered;
+}
+.image-gallery {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr; 
+    grid-template-rows: repeat(2, 1fr);
+    height: 600px;
+}
+.image-gallery div {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.cont1 {
+    grid-row: 1 / span 2; 
+    background-image: url('assets/Images/gallery11.webp');
+}
+.cont2 {  /*.... small problem ....*/
+    grid-row: 1 ;
+    background-image: url('assets/Images/gallery23.webp');
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.cont3 {
+    
+    background-image: url('assets/Images/gallery33.webp');
+}
+.cont4 {
+    background-image: url('assets/Images/gallery14.webp');
+}
+.image-gallery h3{
+  font-size: 30px;
+  color:orangered;
+  text-align: center;
+  padding-top: 10%;
+}
+.image-gallery h2{
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+.image-gallery p{
+   font-size: 16px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+.image-gallery button{
+   background-color: orangered;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+ /*................*/
+/*...... End of p2 [3rd] div.....*/
+/* +++++++++++++++++++++++++ */
+
+/* .....Start of p3 [4th] div........... */
+.p3{
+  display: flex;
+  padding: 150px;
+  gap: 40px;
+  
+}
+.p3 div img{
+  width: 550px;
+  height: 700px;
+ 
+}
+
+.p3 .contant3{
+    padding: 50px 30px;
+}
+
+.p3 .contant3 h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: orangered; 
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.p3 .contant3 h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
+  max-width: 600px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.p3 .contant3 p {
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 600px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.p3 .contant3 button {
+  padding: 18px 32px;
+  border: none;
+  background-color: orangered;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  width: fit-content;
+  transition: background-color 0.3s ease;
+}
+.p3 .contant3 button:hover {
+  background-color: #cb4820;
+}
+/* ...........End of p3 [4th] div............ */
+
+/*...... Start of p4 [5th] div........*/
+/*....AI.....*/
+.p4 {
+    width: 100%;
+    min-height: 60vh; 
+    background-image: url("assets/Images/section_bg04.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 120px; 
+    text-align: center;
+}
+.booking-section h3 {
+    color: orangered;
+    font-weight: normal;
+    font-size: 18px; 
+}
+.booking-section h2 {
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+.form {
+    background-color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    min-height: 18vh; 
+    border-radius: 12px;
+    padding: 20px 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.form form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 3.5%;
+}
+/*.........*/
+.form-inputs {
+    display: flex;
+    flex-grow: 1; 
+    gap: 20px;
+}
+.input-group {
+    display: flex;
+    align-items: center;
+    flex: 1; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.input-group i {
+    color: #888;
+    margin-right: 10px;
+}
+.input-group select,
+.input-group input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 1em;
+    color: #333;
+}
+.input-group select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("assets/Images/section_bg04.webp");
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 25px;
+    cursor: pointer;
+}
+/*..........*/
+.book-now {
+    background-color: orangered;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.book-now:hover {
+    background-color:rgb(192, 84, 44)
+}
+/*...........*/    
+/*.......End of p4 [5th] div........*/
+/*+++++++++++++++++++++++++++++++*/
+/*... Start of p5 [6th] div........*/
+.p5 {
+    width: 100%;
+    height: 100%;
+}
+.p5 h3 {
+    font-weight: 500;
+    color: orangered; 
+    text-transform: capitalize;
+    font-size: 18px; 
+    text-align: center;
+    margin-top: 10%;
+}
+.p5 h2 {
+    font-size: 45px;
+    margin-bottom: 40px;
+    text-align: center;
+    word-spacing: 1.9px;
+} 
+
+.p5 div #container{
+  display: flex;
+  padding: 1% 5%;
+  gap: 20px;
+  margin-left: 10%;
+}
+.p5 div #container .box1,
+.p5 div #container .box2,
+.p5 div #container .box3{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    height: 330px;
+    background-color: #ffffff;
+    padding: 20px; 
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+} 
+.p5 div #container .box1:hover,
+.p5 div #container .box2:hover,
+.p5 div #container .box3:hover{
+  background-color: #ccc;
+
+}
+.p5 div #container img{
+    width: 90px;
+    height: 90px; 
+   
+    border: 2px solid transparent;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.p5 div #container p{
+  text-align: center; 
+  color: #555; 
+  font-size: 16px;
+  line-height: 29px; 
+  padding-top: 25px;
+}
+
+/*... End of p5 [6th] div........*/
+/* +++++++++++++++++++++++++ */
+/*....Start of p6 [7th] div........*/
+.p6 {
+    background-image: url("assets/Images/section_bg03.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh; 
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+}
+.p6-content {
+    width: 40%;
+    text-align: left;
+    padding: 20px 20px 20px 40%;
+    margin-right: 10%; 
+}
+.p6-content h3 {
+    color: orangered; 
+    font-size: 18px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+.p6-content h2 {
+    color: #000; 
+    font-size: 50px;
+    margin-bottom: 20px;
+    line-height: 1.3;
+}
+.p6-content p {
+    color: #000; 
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+.subscribe-form {
+    display: flex;
+}
+.subscribe-form input {
+    padding: 20px;
+    border: 1px solid transparent;
+    background-color: #fff;
+    width: 350px;
+    font-size: 20px;
+}
+.subscribe-form button {
+    padding: 15px 30px;
+    background-color: orangered; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+.subscribe-form button:hover {
+    background-color: #d35400;
+}
+/*....End of p6 [7th] div........*/
+/* +++++++++++++++++++++++*/
+/*.... Start of [8th] div .......*/
+.p7 {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10%;
+}
+.p7 h3 {
+    color: orangered;
+    font-size: 18px; 
+    text-align: center;
+    margin-top: 11%;
+}
+.p7 h2 {
+    font-size: 45px;
+    margin-bottom: 40px;
+    text-align: center;
+    word-spacing: 1.9px;
+}  
+.p7 div #pics{
+  display: flex;
+  gap: 20px;
+  margin-left: 15%;
+  position: relative;
+}
+.p7 .p-h4{
+  width: 300px;
+  height: 130px;
+  background-color: #f4f1f1;
+  border-radius: 5px;
+  margin-left: 1.2%;
+  padding: 1%;
+  position: absolute;
+  bottom: -15%;
+}
+.p7 .p-h4:hover{
+  background-color: orangered;
+  color: #fff;
+}
+.p7 .p-h4 p{
+    color: gray;
+}
+.p7 .p-h4 p:hover{
+  color: #fff;
+}
+.p7 .p-h4 h4{
+  font-size: 19px;
+  line-height: 30px;
+}
+/*.... End of [8th] div .......*/
+/* ....................................... */
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 100px;
+  border: 2px solid orangered; 
+  border-radius: 5px;
+  color: gray; 
+  background-color: transparent; 
+  cursor: pointer;
+  transition: all 0.3s ease-in-out; 
+}
+
+
+button:hover {
+  background-color: orangered;
+  border: 2px solid orangered;
+  border-radius: 5px; 
+  color: white; 
+
+}
+/* ....................................... */
+
+/*.. for All list ..*/
+ul{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+/*.. End of list..*/
+/* ....................................... */
+/*... Start Footer ...*/
+ footer {
+    background-image: url("assets/Images/footerbg.webp");
+    background-size: cover; 
+    background-position: center;
+    background-color: #333; 
+    color: white;
+    padding: 80px 10%; 
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    margin-bottom: 80px; 
+}
+.footer-logo{
+  width: 150px;
+  height: 150px;
+}
+.footer-column {
+    max-width: 30%;
+    padding: 0px 15px;
+}
+
+.footer-column p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+}
+/*.... AI ....*/
+.footer-column p::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    background-color: orangered;
+}
+/*.............*/
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.footer-column ul li a {
+    text-decoration: none; 
+    color: #aaa;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: orangered;
+}
+
+.logo-column img {
+    width: 200px; 
+    height: auto;
+}
+
+/*... AI ...*/
+.instagram-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+}
+/*..........*/
+
+.instagram-images img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    /*.. AI ..*/
+    border-top: 1px solid #444; /*break line between the two parts*/
+    /*........*/
+    flex-wrap: wrap;
+}
+
+.copyright a {
+    color: orangered;
+    text-decoration: none;
+
+}
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: orangered;
+}
+
+
